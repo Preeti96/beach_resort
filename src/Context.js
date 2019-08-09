@@ -35,6 +35,10 @@ class RoomProvider extends Component {
     });
     return tempItems;
   }
+  getRoom = slug => {
+    let tempRooms = [...this.state.rooms];
+    const room = tempRoom
+  }
 
   render() {
     return (
